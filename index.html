@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> Design Web e Multimédia </title>
+    <link rel="icon" type="image/x-icon" href="./favicon_io/favicon.ico">
+    <link href="css/estilos.css" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/animaScroll.js"></script>
+    <script src="js/cycle2.js"></script>	
+
+</head>
+
+<body>
+
+    <nav>
+        <div id="menu">
+
+            <a href="index.html"><img src="./icones_90/icone_menu_90.png" alt="logo"/></a>
+
+            <!--<a id="topo" href="#topoSection"><img src="images/apresentacao_dwm.png" width="60" height="60" alt="logo" /></a>-->
+
+            <ul>
+                <li><a id="apresentacao" href="#apresentacao_dwm">
+                        <div class="tooltip"><span class="textoTooltip">Apresentação do Curso</span></div>
+                    </a></li>
+                <li><a id="acesso" href="#acessos">
+                        <div class="tooltip"><span class="textoTooltip">Acessos</span></div>
+                    </a></li>
+                <li><a id="plano_de_estudo" href="#plano_de_estudos">
+                        <div class="tooltip"><span class="textoTooltip">Plano de estudos</span></div>
+                    </a></li>
+                <li><a id="saidas_profissional" href="#saidas_profissionais">
+                        <div class="tooltip"><span class="textoTooltip">Saídas Profissionais
+                        </span></div>
+                    </a></li>
+                    <li><a id="portefolios" href="#portefolio">
+                        <div class="tooltip"><span class="textoTooltip">Portefolio
+                        </span></div>
+                    </a></li>
+                <li><a id="contacto" href="#contactos">
+                        <div class="tooltip"><span class="textoTooltip">Contactos</span></div>
+                    </a></li>
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <a id="topoSection"></a>
+
+    			<!-- slideshow (techno.tut)usando a biblioteca jQuery e o pluging cycle2 de Malsup-->
+			
+	<div id="slideshow" class="cycle-slideshow"
+            data-cycle-fx = "fade"
+            data-cycle-speed = "600"
+            data-cycle-timeout = "3000"
+            data-cycle-pager = "#pager"
+            data-cycle-pager-template ="<a href='#'><img src='{{src}}' height=100 width=150/>"
+            data-cycle-next = "#next"
+            data-cycle-prev = "#prev"
+            data-cycle-manual-fx = "scrollHorz"
+            data-cycle-manual-speed = "400"
+            data-cycle-pager-fx = "fade">
+            <img src="imagens/imagem1.jpeg" alt="imagem da ESTG">
+            <img src="imagens/biblioteca.jpg" alt="iamgem da biblioteca">
+            <img src="imagens/modelção.jpeg" alt="imagem da sala de modelção">
+            <img src="imagens/posts.jpeg" alt="imagem de placar com posts">
+            <img src="imagens/Edsustentavel.jpeg" alt="imagem de laboratorio">>
+         </div>
+         <div id="pager"></div>
+         <img id="prev" src="imagens/prev1.svg"/>
+         <img id="next" src="imagens/next1.svg"/>
+         
+         <!-- fim slideshow-->
+
+    <div id="apresentacao_dwm" class="sec secOne section">
+        <div class="conteudo">
+            <h4 class="titulos">Apresentação do Curso</h4>
+            <div>
+                <p class="textos">O Curso Técnico Superior Profissional em Desenvolvimento Web e Multimédia visa a formação de profissionais para que, de forma autónoma ou integrados numa equipa, sejam capazes de atuar na conceção, planeamento, desenvolvimento, implementação e manutenção de soluções no domínio dos sistemas e tecnologias web e na produção e integração de produtos e conteúdos multimédia.</p>
+                <a class="links" href="https://www.ipvc.pt/wp-content/uploads/2020/09/Brochura-CTeSP-ESTG.pdf" target="_blank">Brochura CTeSP ESTG</a>
+                <!--<p>Video para a apresentaçao do curso</p>-->
+                <iframe id="video_dwm" width="922" height="519" src="https://www.youtube.com/embed/dlY2g4b6SYA" title="CTESP de Desenvolvimento Web e Multimédia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <img src="imagens/logos-300x37.png" alt="logo norte 30">
+                <h1 class="titulos">Grau</h1>
+                <p class="textos">CTeSP</p>
+                <h1 class="titulos">Duração</h1>
+                <p class="textos">2 anos letivos (4 semestres)</p>
+                <h1 class="titulos">Regime</h1>
+                <p class="textos">Normal | Diurno</p>
+                <h1 class="titulos">Escola</h1>
+                <p class="textos">ESTG - Escola Superior de Tecnologia e Gestão</p>
+                <h1 class="titulos">Publicação em DR</h1>
+                <a class="links" href="https://dre.pt/application/file/75155859" target="_blank">Diário da República, 2.ª série — N.º 158 — 18 de agosto de 2016</a>
+            </div> 
+
+        </div>
+    </div>
+
+    <div id="acessos" class="subSec section">
+        <div class="conteudo">
+
+            <h4 class="titulos">Acessos</h4>
+            <div class="col1">	
+                <h5 class="titulos">Condições de acesso <br>Podem-se candidatar-se:</h5>
+                        <ul class="textos">
+                            <li>os titulares de um curso de ensino secundário, ou habilitação legalmente equivalente;</li>
+                            <li>os titulares de um diploma de especialização tecnológica ou de técnico superior profissional;</li>
+                            <li>os titulares de um grau de ensino superior, que pretendam a sua requalificação profissional.</li>
+                        </ul>
+                    <p class="textos">Também os maiores de 23 anos que tenham sido aprovados nas provas destinadas a avaliar a 
+                    para frequência no Ensino Superior podem candidatar-se.</p>
+            </div>
+
+            <div class="col2">
+                    <h5 class="titulos">Concursos especiais de acesso <br>Candidatos nacionais ou equivalente;</h5>
+                    <ul class="textos">
+                        <li>Candidatos internacionais (candidatos que, cumulativamente, não tenham cidadania Portuguesa,não sejam cidadãos de um Estado Membro da União Europeia, não sejam familiares de portugueses ou de cidadãos de um Estado Membro da União Europeia, não vivam ininterruptamente em Portugal há mais de 2 anos em 1 de janeiro do ano de candidatura, não sejam beneficiários, em 1 de janeiro do ano de candidatura, do estatuto de igualdade de direitos e deveres atribuído ao abrigo de tratado internacional, não requeiram o ingresso no ensino superior através dos regimes especiais de acesso e ingresso).</li>
+                    </ul>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="plano_de_estudos" class="sec secTwo section">
+
+        <div class="conteudo">
+            <h4 class="titulos">Plano de estudos</h4>
+            <input type="radio" name="tabss" id="tabs1" checked />
+            <label for="tabs1">1 Ano</label><input type="radio" name="tabss" id="tabs2" />
+            <label for="tabs2">2 Ano</label>
+            <div class="tabs content11 textos">
+            <table>
+                <tr>
+                    <td class="bottom">Unidade Curricular</td>
+                    <td class="bottom">Area</td>
+                    <td  class="bottom">Tipo</td>
+                    <td  class="bottom">Horario de contacto</td>
+                    <td class="bottom">ETCS</td>
+                </tr>
+                <tr>
+                    <td>Matemática (CTeSP Formação Complementar)</td>
+                    <td>MAT</td>
+                    <td>A</td>
+                    <td>TP:54.00</td>
+                    <td>5.00</td>
+                </tr>
+                <tr>
+                    <td>Informática (CTeSP Formação Complementar)</td>
+                    <td>EIM</td>
+                    <td>A</td>
+                    <td>TP:54.00</td>
+                    <td>5.00</td>
+                </tr>
+                <tr>
+                    <td>Design Web e Multimédia</td>
+                    <td>EIM</td>
+                    <td>S1</td>
+                    <td>T:24.00 | P:40.00</td>
+                    <td>6.00</td>
+                </tr>
+                <tr>
+                    <td>Introdução à Programação</td>
+                    <td>EIM</td>
+                    <td>S1</td>
+                    <td>T:24.00 | P:40.00</td>
+                    <td>6.00</td>
+                </tr>
+                <tr>
+                    <td>Sistemas Operativos e Redes de Computadores</td>
+                    <td>EIM</td>
+                    <td>S1</td>
+                    <td>P:32.00</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>Técnicas de Expressão Oral e Escrita</td>
+                    <td>ADH</td>
+                    <td>S1</td>
+                    <td>T:32.00</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>Tópicos de Matemática</td>
+                    <td>MAT</td>
+                    <td>S1</td>
+                    <td>T:64.00</td>
+                    <td>6.00</td>
+                </tr>
+                <tr>
+                    <td>Modelação 3D</td>
+                    <td>EIM</td>
+                    <td>S1</td>
+                    <td>P:64.00</td>
+                    <td>6.00</td>
+                </tr>
+                <tr>
+                    <td>Bases de Dados</td>
+                    <td>EIM</td>
+                    <td>S2</td>
+                    <td>T:32.00 | P:32.00</td>
+                    <td>6.00</td>
+                </tr>
+                <tr>
+                    <td>Desenvolvimento e Gestão de Conteúdos Web</td>
+                    <td>EIM</td>
+                    <td>S2</td>
+                    <td>T:24.00 | P:40.00</td>
+                    <td>6.00</td>
+                </tr>
+                <tr>
+                    <td>Documentação Técnica</td>
+                    <td>EIM</td>
+                    <td>S2</td>
+                    <td>T:16.00 | P:16.00</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>Gestão de Projectos</td>
+                    <td>EIM</td>
+                    <td>S2</td>
+                    <td>T:16.00 | P:16.00</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>Produção Audiovisual</td>
+                    <td>EIM</td>
+                    <td>S2</td>
+                    <td>T:32.00 | P:32.00</td>
+                    <td>6.00</td>
+                </tr>
+                <tr>
+                    <td>Sistemas Multimédia Interactivos</td>
+                    <td>EIM</td>
+                    <td>S2</td>
+                    <td>T:24.00 | P:40.00</td>
+                    <td>6.00</td>
+                </tr>
+            </table>
+        </div>
+        <div class="tabs content22 textos">
+            <table>
+                <tr>
+                    <td class="bottom">Unidade Curricular</td>
+                    <td class="bottom">Area</td>
+                    <td class="bottom">Tipo</td>
+                    <td class="bottom">Horario de contacto</td>
+                    <td class="bottom">ETCS</td>
+                </tr>
+                <tr>
+                    <td>Animação Digital</td>
+                    <td>EIM</td>
+                    <td>S1</td>
+                    <td>P:64.00</td>
+                    <td>6.00</td>
+                </tr>
+                <tr>
+                    <td>Aplicações Web</td>
+                    <td>EIM</td>
+                    <td>S1</td>
+                    <td>T:24.00 | P:40.00</td>
+                    <td>6.00</td>
+                </tr>
+                <tr>
+                    <td>Inglês Técnico</td>
+                    <td>ADH</td>
+                    <td>S1</td>
+                    <td>T:32.00</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>Marketing Digital</td>
+                    <td>OLM</td>
+                    <td>S1</td>
+                    <td>T:32.00</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>Projecto Web e Multimédia</td>
+                    <td>EIM</td>
+                    <td>S1</td>
+                    <td>P:96.00</td>
+                    <td>9.00</td>
+                </tr>
+                <tr>
+                    <td>Sistemas Móveis Interactivos</td>
+                    <td>EIM</td>
+                    <td>S1</td>
+                    <td>P:32.00</td>
+                    <td>3.00</td>
+                </tr>
+                <tr>
+                    <td>Estágio</td>
+                    <td>EIM</td>
+                    <td>S2</td>
+                    <td>E:810.00</td>
+                    <td>30.00</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+
+    <div id="saidas_profissionais" class="subSec section">
+
+        <div class="conteudo1">
+            <h4 class="titulos">Saídas Profissionais</h4>
+            <h2 class="titulos">Perfil do diplomado</h2>
+            <p class="textos">O CTeSP em Desenvolvimento Web e Multimédia pretende qualificar técnicos/as superiores que, de forma autónoma ou integrados numa equipa, sejam capazes de atuar na concepção,
+                planeamento, desenvolvimento, implementação e manutenção de soluções no domínio dos sistemas e tecnologias web e na produção e integração de produtos e conteúdos multimédia.</p>
+            <h2 class="titulos">Saídas</h2>
+                <ul  class="textos">
+                    <li>Desenvolvimento de conteúdos multimédia interativos</li>
+                    <li>Produção de áudio, vídeo e animação digital.</li>
+                    <li>Desenvolvimento e implementação de soluções para a web.</li>
+                    <li>Manutenção de Sistemas de Gestão de Conteúdos Web.</li>
+                </ul>
+            <h2 class="titulos">Prosseguimento de Estudos</h2>
+                <p class="textos">Os Diplomados com o CTeSP em Desenvolvimento Web e Multimédia podem candidatar-se às seguintes licenciaturas da ESTG-IPVC, pois adquiriram conhecimentos e competências compatíveis
+                    com a prossecução dos estudos:</p>
+                    <ul class="textos">
+                        <li>Engenharia da Computação Gráfica e Multimédia</li>
+                        <li>Engenharia Informática</li>
+                        <li>Engenharia de Redes e Sistemas de Computadores</li>
+                    </ul>
+            <h2 class="titulos"> Plano de Equivalências</h2>
+            <p class="textos">Plano de Equivalências de CTeSP’s para Licenciaturas</p>
+            <input type="radio" name="tabs" id="tab1" checked />
+            <label for="tab1">EI</label><input type="radio" name="tabs" id="tab2" />
+            <label for="tab2">ECGM</label>
+            <div class=" tab content1 textos">
+            <table>
+                <tr>
+                    <td colspan="2" class="bottom">Ctesp Desenvolvimento Web e Multimedia</td>
+                    <td colspan="2" class="bottom">Licenciatura em engenharia Informática</td> 
+                </tr>
+                <tr>
+                    <td >Unidade Curricular</td>
+                    <td >ECTS</td>
+                    <td >Unidade Curricular</td>
+                    <td >ECTS</td>
+                </tr>
+                <tr>
+                    <td >Sistemas Operativos e Redes de Computadores</td>
+                    <td >3</td>
+                    <td rowspan="2" >Redes de Computadores</td>
+                    <td rowspan="2" >5</td>
+                <tr>
+                    <td >Desenvolvimento e Gestão de Conteúdos Web</td>
+                    <td >6</td>
+                </tr>
+                <tr>
+                    <td >Sistemas Multimédia Interativos</td>
+                    <td >6</td>
+                    <td >Programação II</td>
+                    <td >5</td>
+                </tr>
+                <tr>
+                    <td >Introdução à Programação</td>
+                    <td >6</td>
+                    <td >Algoritmos e Estruturas de Dados</td>
+                    <td >7</td>
+                </tr>
+                <tr>
+                    <td >Bases de Dados</td>
+                    <td >6</td>
+                    <td >Bases de Dados</td>
+                    <td >5</td>
+                </tr>
+                <tr>
+                    <td >Documentação Técnica</td>
+                    <td >3</td>
+                    <td >
+                        <p class="tabelap">Comportamento Sociedade e Cidadania II</p>
+                        <p class="tabelap">Ética e Deontologia Profissional (3)</p>
+                        <p class="tabelap">Gestão de Projetos (3)</p>
+                    </td>
+                    <td rowspan="2" >6</td>
+                </tr>
+                <tr>
+                    <td>Gestão de Projetos</td>
+                    <td >3</td>
+                </tr>
+                <tr>
+                    <td >Design Web e Multimédia</td>
+                    <td >6</td>
+                    <td rowspan="2" >Tecnologias Multimédia</td>
+                    <td rowspan="2" >5</td>
+                </tr>
+                <tr>
+                    <td >Animação Digital</td>
+                    <td >6</td>
+                </tr>
+                <tr>
+                    <td >Inglês Técnico</td>
+                    <td >3</td>
+                    <td rowspan="2" >
+                        <p >Comportamento Sociedade e Cidadania I</p>
+                        <p >Inglês Técnico (3)</p>
+                        <p >Princípios de Gestão Empresarial (3)</p>
+                    </td>
+                    <td rowspan="2" >6</td>
+                </tr>
+                <tr>
+                    <td >Marketing Digital</td>
+                    <td >3</td>
+                </tr>
+                <tr>
+                    <td>Aplicações Web</td>
+                    <td >6</td>
+                    <td>Sistemas de Informação em Rede</td>
+                    <td >6</td>
+                </tr>
+                <tr>
+                    <td >Projeto Multimédia</td>
+                    <td >5</td>
+                    <td>Projeto I</td>
+                    <td >5</td>
+                </tr>
+            </table>
+        </div>
+        <div class=" tab content2 textos">
+            <table>
+                <tr>
+                    <td colspan="2" class="bottom">Ctesp Desenvolvimento Web e Multimedia</td>
+                    <td colspan="2" class="bottom">Licenciatura em Engenharia da Computação Gráfica e Multimédia</td> 
+                </tr>
+                <tr>
+                    <td >Unidade Curricular</td>
+                    <td >ECTS</td>
+                    <td >Unidade Curricular</td>
+                    <td >ECTS</td>
+                </tr>
+                <tr>
+                    <td>Tópicos de Matemática</td>
+                    <td >6</td>
+                    <td>Propedêutica da Matemática</td>
+                    <td >6</td>
+                </tr>
+                <tr>
+                    <td>Introdução à Programação</td>
+                    <td >6</td>
+                    <td rowspan="2" >Introdução à Programação</td>
+                    <td rowspan="2" >7</td>
+                </tr>
+                <tr>
+                    <td>Sistemas Multimédia Interativos</td>
+                    <td >6</td>
+                </tr>
+                <tr>
+                    <td >Bases de Dados</td>
+                    <td >6</td>
+                    <td >Bases de Dados</td>
+                    <td >5</td>
+                </tr>
+                <tr>
+                    <td >Modelação 3D</td>
+                    <td >6</td>
+                    <td >Modelação 3D</td>
+                    <td >4</td>
+                </tr>
+                <tr>
+                    <td >Design Web e Multimédia</td>
+                    <td >6</td>
+                    <td rowspan="2" >Design Multimédia</td>
+                    <td rowspan="2" >5</td>
+                </tr>
+                <tr>
+                    <td>Animação Digital</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>Sistemas Multimédia Interativos</td>
+                    <td >6</td>
+                    <td rowspan="2" >Sistemas Multimédia</td>
+                    <td rowspan="2" >5</td>
+                </tr>
+                <tr>
+                    <td>Animação Digital</td>
+                    <td >6</td>
+                </tr>
+                <tr>
+                    <td >Desenvolvimento e Gestão de Conteúdos Web</td>
+                    <td >6</td>
+                    <td rowspan="2" >Tecnologias Web</td>
+                    <td rowspan="2" >5</td>
+                </tr>
+                <tr>
+                    <td >Aplicações Web</td>
+                    <td >6</td>
+                </tr>
+                <tr>
+                    <td >Produção Audiovisual</td>
+                    <td >6</td>
+                    <td >Produção Audiovisual</td>
+                    <td >5</td>
+                </tr>
+                <tr>
+                    <td >Gestão de Projetos</td>
+                    <td >3</td>
+                    <td >Projeto e Desenvolvimento</td>
+                    <td >10</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    </div>
+
+    <div id="portefolio" class="subSec2 section">
+        
+        <h4 class="titulos2">Portefolio <br> <br> Parcerias e Estágio </h4>
+            <!--<h4 class="titulos2">Parcerias e Estágio</h5> -->
+
+        <div class="conteudo2">
+            <div class="col1 textos">
+                <ul>
+                    <li class="item">Ancornet, Lda (Informática . Webdesign)</li>
+                    <li class="item">ArgumentaLetras - Novas Tecnologias, Lda</li>
+                    <li class="item">Blisq Creative (Branding . Web . Comunicação)</li>
+                    <li class="item">CordeLima (Interactive Media . Design . Branding)</li>
+                    <li class="item">Frenetikódigo, Software Unipessoal, Lda.</li>
+                    <li class="item">ILIKE (Inove Online . E-commerce . Web)</li>
+                    <li class="item">Infogenial - Tecnologias da Informação e Serviços</li>
+                    <li class="item">InforViana - Sistemas Informáticos, Lda.</li>
+                    <li class="item">Jcanão, Tecnologia e Outsourcing</li>
+                    <li class="item">Light Speck, Lda.</li>
+                    <li class="item">Media ViV (Multimedia Solutions)</li>
+                </ul>
+            </div>
+            <div class="col2 textos">
+                <img class="imagecolum" src="imagens/laboratório.jpeg" alt="" srcset="" >
+                <img class="imagecolum" src="imagens/html5.jpg" alt="" srcset="">
+                <img class="imagecolum" src="imagens/auladwm.jpeg" alt="" srcset="">
+                <img class="imagecolum" src="imagens/programação.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div id="contactos" class="sec cor_letra_fuuter section">
+
+        <div class="conteudo3">
+                <h3 class="titulos">Contactos</h3>
+                <div class="flex">
+                    <div class ="futer1 textos">   
+                            ESTG <br>
+                            Avenida do Atlântico, n.º 644 <br>
+                            4900-348 Viana do Castelo <br>
+                            teste@ipvc.pt <br>
+                            9999999999 | 9999999999 <br> 
+                    </div>
+                    <div class="futer2">
+                    
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2199.4997183036735!2d-8.84943852533265!3d41.694260676906566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd25c9d271131d39%3A0x7adf1f41800a5ef0!2sEscuela%20Superior%20de%20Tecnolog%C3%ADa%20y%20Gesti%C3%B3n%20-%20Instituto%20Polit%C3%A9cnico%20de%20Viana%20do%20Castelo!5e1!3m2!1ses!2spt!4v1734710609022!5m2!1ses!2spt" width="250" height="230" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <form class="textos">
+                        <fieldset>
+                            <p class="formp">Nome: <br>
+                                <input class="formulario_input" type="text" name="nome" id="nome" maxlength="50"></p>
+                            <p class="formp">Email: <br>
+                                <input class="formulario_input" type="email" name="email" id="email" maxlength="50"></p>
+                            <p class="formp">Assunto: <br> <input class="formulario_input" type="text" name="Assunto" id="Assunto" maxlength="50"></p>
+                            <p class="formp">Mensagem: <br>
+                                <textarea name="Mensagem" id="Mensagem" maxlength="600"></textarea></p>
+                        </fieldset> <br>
+                     <button class="textos" type="submit">Submeter</button>
+                    </form>
+                </div>
+                
+        </div>
+    </div>
+
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/animaScroll4.js"></script>
+  
+    
+</body>
+
+</html>
