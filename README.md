@@ -1,7 +1,7 @@
 # CTeSP-IPVC Website
 
 ## Description
-This project simulates the official CTeSP website, focusing on web and multimedia development at the Polytechnic Institute of Viana do Castelo.
+This project simulates the official website for the Web and Multimedia Development course at CTeSP-IPVC. It was the project for the first year of the course. Developed by me and my teammate Tiago Silva.
 
 **Netlify Link:** https://dwmctesp.netlify.app/ 
 
